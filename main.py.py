@@ -6,7 +6,7 @@ import time
 
 # Set page configuration
 st.set_page_config(
-    page_title="IMDB Movie Review Classifier by Smith",
+    page_title="IMDB Movie Review Classifier by vidya",
     page_icon="🎬",
     layout="wide"
 )
@@ -54,7 +54,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Title
-st.markdown('<div class="main-header">IMDB Movie Review Classifier by Smith</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">IMDB Movie Review Classifier by vidya</div>', unsafe_allow_html=True)
 
 @st.cache_resource
 def load_model_and_word_index():
